@@ -53,5 +53,5 @@ bot.on("message", async message => {
 	}
 });
 
-bot.login(config.token);
 client.login(process.env.NTI0MjMyNTcwNDQ0MTg1NjAw.DvlsaQ.S0i0zRrDA-Gdoi-pb21vZGF4HI8);
+bot.login(config.token);
