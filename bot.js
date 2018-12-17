@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true}); // botnya tidak akan bisa mention @everyone
-const config = require("./config.json"); // kita akan menaruh prefix dan token disini
+const prefix = '!';
 
 bot.on("ready", async () => {
 	console.log(`${bot.user.username} Saya siap melayani!`);
@@ -54,4 +54,3 @@ bot.on("message", async message => {
 });
 
 client.login(process.env.NTI0MjMyNTcwNDQ0MTg1NjAw.DvlsaQ.S0i0zRrDA-Gdoi-pb21vZGF4HI8);
-bot.login(config.token);
